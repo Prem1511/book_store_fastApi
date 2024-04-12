@@ -7,7 +7,7 @@ from fastapi.responses import JSONResponse
 app = FastAPI()
 
 origins = ["*"]
-
+#comment
 app.add_middleware(
     CORSMiddleware,
     allow_origins=origins,
